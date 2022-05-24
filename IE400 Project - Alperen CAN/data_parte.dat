@@ -1,0 +1,19 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: alperen
+ * Creation Date: 1 May 2022 at 12:46:40
+ *********************************************/
+ 
+SheetConnection sheet("data.xlsx");
+ 
+	C from SheetRead(sheet,"data!G10:G54");
+	S from SheetRead(sheet,"data!H10:H54");
+	A from SheetRead(sheet,"data!I10:I54");
+	T from SheetRead(sheet,"data!G65");
+	d from SheetRead(sheet,"data!F58:J62");
+	D from SheetRead(sheet,"data!F4:I4");
+	B from SheetRead(sheet,"data!F6");
+	M from SheetRead(sheet,"data!N10:R54");
+	Td from SheetRead(sheet,"data!G74");
+	time from SheetRead(sheet,"data!M71:Q71");
+	V from SheetRead(sheet,"data!J72");
