@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="false" name="part_c" category="opl">
+			<ref name="part_c.mod" type="model">
+			</ref>
+			<ref name="data.dat" type="data">
+			</ref>
+		</config>
+		<config default="true" name="part_b" category="opl">
+			<ref name="data.dat" type="data">
+			</ref>
+			<ref name="part_b.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="part_d" category="opl">
+			<ref name="part_d.mod" type="model">
+			</ref>
+			<ref name="data.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="part_e" category="opl">
+			<ref name="data_parte.dat" type="data">
+			</ref>
+			<ref name="part_e.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
